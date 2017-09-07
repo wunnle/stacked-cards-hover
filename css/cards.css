@@ -1,0 +1,92 @@
+.card {
+  height: 50px;
+  width: 400px;
+  max-width: 95%;
+  background: #1E88E5;
+  margin: -17px auto 0;
+  text-align: center;
+  line-height: 50px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 3px; }
+  .card--purple {
+    background: #9C27B0; }
+  .card--indigo {
+    background: #5C6BC0; }
+  .card--blue {
+    background: #1E88E5; }
+  .card--lblue {
+    background: #3891FF; }
+  .card--cyan {
+    background: #00BCD4; }
+
+.card-holder {
+  display: inline-block;
+  vertical-align: middle;
+  height: 200px;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%); }
+  .card-holder:hover .card {
+    margin-top: -15px; }
+  .card-holder .card:hover {
+    -webkit-transition: margin cubic-bezier(0.28, 0.76, 1, 1) 0.1s, z-index cubic-bezier(0.28, 0.76, 1, 1) 0.13s, -webkit-transform cubic-bezier(0.28, 0.76, 1, 1) 0.13s;
+    transition: margin cubic-bezier(0.28, 0.76, 1, 1) 0.1s, z-index cubic-bezier(0.28, 0.76, 1, 1) 0.13s, -webkit-transform cubic-bezier(0.28, 0.76, 1, 1) 0.13s;
+    -o-transition: transform cubic-bezier(0.28, 0.76, 1, 1) 0.13s, margin cubic-bezier(0.28, 0.76, 1, 1) 0.1s, z-index cubic-bezier(0.28, 0.76, 1, 1) 0.13s;
+    transition: transform cubic-bezier(0.28, 0.76, 1, 1) 0.13s, margin cubic-bezier(0.28, 0.76, 1, 1) 0.1s, z-index cubic-bezier(0.28, 0.76, 1, 1) 0.13s;
+    transition: transform cubic-bezier(0.28, 0.76, 1, 1) 0.13s, margin cubic-bezier(0.28, 0.76, 1, 1) 0.1s, z-index cubic-bezier(0.28, 0.76, 1, 1) 0.13s, -webkit-transform cubic-bezier(0.28, 0.76, 1, 1) 0.13s; }
+  .card-holder .card {
+    position: relative;
+    -webkit-box-shadow: 0 -2px 27px rgba(0, 0, 0, 0.13);
+    box-shadow: 0 -2px 27px rgba(0, 0, 0, 0.13);
+    -webkit-transition: margin cubic-bezier(0.28, 0.76, 1, 1) 0.1s, z-index cubic-bezier(0.28, 0.76, 1, 1) 0.13s, -webkit-transform cubic-bezier(0.28, 0.76, 1, 1) 0.25s;
+    transition: margin cubic-bezier(0.28, 0.76, 1, 1) 0.1s, z-index cubic-bezier(0.28, 0.76, 1, 1) 0.13s, -webkit-transform cubic-bezier(0.28, 0.76, 1, 1) 0.25s;
+    -o-transition: transform cubic-bezier(0.28, 0.76, 1, 1) 0.25s, margin cubic-bezier(0.28, 0.76, 1, 1) 0.1s, z-index cubic-bezier(0.28, 0.76, 1, 1) 0.13s;
+    transition: transform cubic-bezier(0.28, 0.76, 1, 1) 0.25s, margin cubic-bezier(0.28, 0.76, 1, 1) 0.1s, z-index cubic-bezier(0.28, 0.76, 1, 1) 0.13s;
+    transition: transform cubic-bezier(0.28, 0.76, 1, 1) 0.25s, margin cubic-bezier(0.28, 0.76, 1, 1) 0.1s, z-index cubic-bezier(0.28, 0.76, 1, 1) 0.13s, -webkit-transform cubic-bezier(0.28, 0.76, 1, 1) 0.25s; }
+  .card-holder .card.t1, .card-holder:hover .card.h1 {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    -webkit-box-shadow: 0 -2px 27px rgba(0, 0, 0, 0.13);
+    box-shadow: 0 -2px 27px rgba(0, 0, 0, 0.13);
+    z-index: 5; }
+  .card-holder .card.t2, .card-holder:hover .card.h2 {
+    -webkit-transform: scale(0.96);
+    -ms-transform: scale(0.96);
+    transform: scale(0.96);
+    -webkit-box-shadow: 0 -2px 27px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 -2px 27px rgba(0, 0, 0, 0.1);
+    z-index: 4; }
+  .card-holder .card.t3, .card-holder:hover .card.h3 {
+    -webkit-transform: scale(0.92);
+    -ms-transform: scale(0.92);
+    transform: scale(0.92);
+    -webkit-box-shadow: 0 -2px 27px rgba(0, 0, 0, 0.07);
+    box-shadow: 0 -2px 27px rgba(0, 0, 0, 0.07);
+    z-index: 3; }
+  .card-holder .card.t4, .card-holder:hover .card.h4 {
+    -webkit-transform: scale(0.88);
+    -ms-transform: scale(0.88);
+    transform: scale(0.88);
+    -webkit-box-shadow: 0 -2px 27px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 -2px 27px rgba(0, 0, 0, 0.05);
+    z-index: 2; }
+  .card-holder .card.t5, .card-holder:hover .card.h5 {
+    -webkit-transform: scale(0.84);
+    -ms-transform: scale(0.84);
+    transform: scale(0.84);
+    -webkit-box-shadow: 0 -2px 27px rgba(0, 0, 0, 0.03);
+    box-shadow: 0 -2px 27px rgba(0, 0, 0, 0.03);
+    z-index: 1; }
+  .card-holder .card.t6, .card-holder:hover .card.h6 {
+    -webkit-transform: scale(0.84);
+    -ms-transform: scale(0.84);
+    transform: scale(0.84);
+    -webkit-box-shadow: 0 -2px 27px rgba(0, 0, 0, 0.01);
+    box-shadow: 0 -2px 27px rgba(0, 0, 0, 0.01);
+    z-index: 1; }
